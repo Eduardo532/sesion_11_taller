@@ -10,18 +10,21 @@
 <body>
     <div id="content"  style="display:list-item;">
 
-        <div id="forms">
+        <form id="form">
             <label for="nombre">nombre</label>
-            <input type="text" name="" id="nombre">
+            <input type="text" name="" id="nombre" required size="20">
         
             <label for="email">email</label>
-            <input type="email" name="" id="email">
+            <input type="email" name="" id="email" required pattern=".+@gmail\.com">
         
             <label for="telefono">numero de telefono</label>
             <input type="text" name="" id="telefono">
 
-        </div>
-        <input type="submit" value="Enviar">
+            <button type="submit"> Enviar </button>
+
+        </form>
+        <script src="./javas.js"></script>
+        
 
 
 
